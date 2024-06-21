@@ -2,9 +2,9 @@ document.addEventListener("DOMContentLoaded", masterSlider, false);
 function masterSlider() {
   let sliders = document.querySelectorAll("[data-slider]");
   if (sliders.length) {
-    sliders.forEach((element) => {
-      slider3d(element);
-    });
+    setTimeout(() => {
+      slider3d(sliders);
+    }, 1500);
   }
   function slider3d(container) {
     const slideItems = container.querySelectorAll(".slide_3d_item");
@@ -158,6 +158,7 @@ function masterSlider() {
 
           sceneTl.pause();
           ScrollTrigger.refresh();
+
           ScrollTrigger.create({
             trigger: container,
             start: "top top",

@@ -1,11 +1,5 @@
 document.addEventListener("DOMContentLoaded", masterSlider, false);
 function masterSlider() {
-  let sliders = document.querySelectorAll("[data-slider]");
-  if (sliders.length) {
-    setTimeout(() => {
-      slider3d(sliders);
-    }, 1500);
-  }
   function slider3d(container) {
     const slideItems = container.querySelectorAll(".slide_3d_item");
     if (slideItems.length) {
@@ -280,5 +274,9 @@ function masterSlider() {
         init();
       }
     }
+  }
+  let sliders = document.querySelector("[data-slider]");
+  if (sliders.length) {
+    slider3d(sliders);
   }
 }

@@ -157,6 +157,7 @@ function masterSlider() {
             });
 
           sceneTl.pause();
+          ScrollTrigger.refresh();
           ScrollTrigger.create({
             trigger: container,
             start: "top top",

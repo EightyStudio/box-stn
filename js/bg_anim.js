@@ -154,7 +154,7 @@ function call_anim() {
         };
         camera.aspect = size.w / size.h;
         camera.updateProjectionMatrix();
-        renderer.setSize(size.w, size.h);
+        webGLRenderer.setSize(size.w, size.h);
       }
     }
     setTimeout(() => {

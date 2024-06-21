@@ -275,8 +275,8 @@ function masterSlider() {
       }
     }
   }
-  let sliders = document.querySelector("[data-slider]");
-  if (sliders.length) {
-    slider3d(sliders);
+  let ms_slider = document.querySelector(".slider_3d");
+  if (ms_slider.length) {
+    slider3d(ms_slider);
   }
 }

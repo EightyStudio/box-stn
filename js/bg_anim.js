@@ -157,6 +157,8 @@ function call_anim() {
         renderer.setSize(size.w, size.h);
       }
     }
-    animBg(cc_anim);
+    setTimeout(() => {
+      animBg(cc_anim);
+    }, 2500);
   }
 }

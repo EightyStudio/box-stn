@@ -1890,7 +1890,7 @@ let svgPath = document.getElementById("all_path");
     `;
       setTimeout(() => {
 
-
+        gsap.set(svgPath,{ opacity:0 });
         svgPath.querySelectorAll("line").forEach(function (e) {
           let length = e.getTotalLength() + 1;
           gsap.set(e, {
@@ -1964,7 +1964,8 @@ let svgPath = document.getElementById("all_path");
             });
         });
         let svgDrawTl = gsap.timeline({ defaults: { ease: "none" } });
-        svgDrawTl.to([".mdl-box *"], { opacity: 1, duration: 1, })
+        svgDrawTl.set(svgPath,{ opacity:1 })
+            .to([".mdl-box *"], { opacity: 1, duration: 1, })
             .to([".box-point > *"], { opacity: 1, duration: 0.6, })
             .to(["line", "polyline", "path:not(.path-txt > *)"], { "stroke-dashoffset": 0, opacity: 1, duration: 2, })
             .to(["circle"], { opacity: 1, duration: 0.7, }, "-=1")

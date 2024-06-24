@@ -320,6 +320,7 @@ svgTreePath.innerHTML = `
 </svg>
 `;
 setTimeout(() => {
+    gsap.set(svgTreePath,{opacity:0});
     svgTreePath.querySelectorAll('.each-branch > g > path:first-child').forEach(e => {
         let length = e.getTotalLength() + 1;
         gsap.set(e, {
@@ -335,6 +336,7 @@ setTimeout(() => {
     })
 
     let treeSvgTl = gsap.timeline({ defaults: { ease: "none" } });
+    treeSvgTl.set(svgTreePath,{opacity:1});
     svgTreePath.querySelectorAll('path.main-branch').forEach(e => {
         treeSvgTl.to(e, {
             "stroke-dashoffset": 0, opacity: 1, duration: 1.8, delay: 0,

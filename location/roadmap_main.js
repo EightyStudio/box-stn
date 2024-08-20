@@ -2,7 +2,7 @@ let svgPath = document.getElementById("all_path");
 if (svgPath != undefined) {
     svgPath.innerHTML = `
             <svg id="Layer_2" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-            viewBox="0 0 2480 3508" style="enable-background:new 0 0 2480 3108;background:#000" xml:space="preserve">
+            viewBox="0 0 2480 3508" style="enable-background:new 0 0 2480 3108;" xml:space="preserve">
             <defs>
                 <linearGradient id="paint0_linear_22_346" x1="19.2719" y1="71.5835" x2="35.1206" y2="59.763"
                     gradientUnits="userSpaceOnUse">

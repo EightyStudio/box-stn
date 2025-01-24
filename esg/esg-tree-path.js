@@ -1,7 +1,7 @@
 let svgTreePath = document.getElementById("tree_svg");
 if (svgTreePath != undefined) {
   svgTreePath.innerHTML = `
-             <svg id="Layer_2" width="1192" height="842" viewBox="0 0 1192 842" fill="none" xmlns="http://www.w3.org/2000/svg" style="background:#000">
+             <svg id="Layer_2" width="1192" height="842" viewBox="0 0 1192 842" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g style="clip-path: url(#clippath);">
       <g class="treepathdraw">
         <g class="paths">
@@ -46,7 +46,7 @@ if (svgTreePath != undefined) {
           <path d="M390.5,620c.91-44.05-14-65-44.5-94" style="fill: none; stroke: #fff; stroke-dasharray: 110.07; stroke-width: 3px;"/>
           <path d="M420,631c-16.79,16.64-46,11.5-74,5" style="fill: none; stroke: #fff; stroke-dasharray: 79.34; stroke-width: 3px;"/>
           <path d="M545.5,699c-15.5-27.5-58.5-32-82-27.5" style="fill: none; stroke: #fff; stroke-dasharray: 93.54; stroke-width: 3px;"/>
-          <path id="path" d="M819.3,555.5c-34.5,0-41-10.4-41.3-11l2.2-1.2c.1.1,8.3,12.5,54.3,9.1l.2,2.5c-5.67.4-10.8.6-15.4.6h0Z" style="fill: #fff;"/>
+          <path d="M778,544.5c6.47,3.68,15.79,12.85,61.96,8.65" style="fill: none; stroke: #fff; stroke-miterlimit: 10; stroke-width: 3px;"/>
         </g>
         <g class="treesubpath">
           <path d="M699.5,448c60.5,7,126.5-12.5,181-71" style="fill: none; stroke: #fff; stroke-dasharray: 204; stroke-width: 5px;"/>

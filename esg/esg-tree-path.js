@@ -1,7 +1,7 @@
 let svgTreePath = document.getElementById("tree_svg");
 if (svgTreePath != undefined) {
   svgTreePath.innerHTML = `
-             <svg id="Layer_2" width="1192" height="842" viewBox="0 0 1192 842" fill="none" xmlns="http://www.w3.org/2000/svg">
+             <ssvg id="Layer_2" width="1192" height="842" viewBox="0 0 1192 842" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g style="clip-path: url(#clippath);">
       <g class="treepathdraw">
         <g class="paths">

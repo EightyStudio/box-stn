@@ -1,7 +1,7 @@
 let svgPath = document.getElementById("all_path");
 if (svgPath != undefined) {
   svgPath.innerHTML = `
-            <svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2480 3508">
+            <ssvg id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2480 3508">
   <defs>
     <linearGradient id="linear-gradient" x1="-545.77" y1="3853.58" x2="-529.92" y2="3865.4" gradientTransform="translate(1714.36 5550.46) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#d7d7d7"/>

@@ -313,8 +313,8 @@ if (customMapContainer != undefined) {
             url: markerIng, // url
             scaledSize: new google.maps.Size(50, 50), // scaled size
             origin: new google.maps.Point(0, 0), // origin
-            anchor: new google.maps.Point(0, 0), // anchor
-            //anchor: new google.maps.Point(25, 50), // anchor
+            //anchor: new google.maps.Point(0, 0), // anchor
+            anchor: new google.maps.Point(25, 50), // anchor
         };
 
         locationData.forEach((data, index) => {
